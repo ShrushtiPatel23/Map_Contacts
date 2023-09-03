@@ -1,0 +1,127 @@
+.navbars {
+    background-color: cornflowerblue;
+    color: antiquewhite;
+    border-style: groove;
+    justify-content: center;
+    display: flex;
+}
+
+.sidebar {
+    background-color: cornflowerblue;
+    height: 100%;
+    border-style: groove;
+    width: 20%;
+    position: fixed;
+    display: inline-flex
+}
+
+.body {
+    height: max-content;
+    margin-left: 20%;
+}
+
+.button {
+    border-radius: 0%;
+    border-style: initial;
+    background-color: cornflowerblue;
+    color: antiquewhite;
+    margin-top: 10%;
+    margin-left: 30%;
+    height: 20%;
+    width: 20%;
+    font-weight: bold;
+    font-size: large;
+    
+}
+
+.btns {
+    border: none;
+    color: whitesmoke;
+    width: 30%;
+   
+}
+
+.data {
+    width: 18rem;
+    height: 10rem; 
+    align-items: center; 
+    border-radius: 5%;
+    border-style: groove;
+    border-width: 8px;
+}
+
+
+.sidebarItem {
+    margin-top: 30%;
+    padding: 30px;
+    height: 30%;
+    justify-content: center;
+    color: antiquewhite;
+    display: flex;
+    border-style: groove;
+    border-width: medium;
+    flex-direction: column;
+    font-weight: 500;
+    font-size: x-large;
+    text-align: center;
+    background-color: cornflowerblue;
+    cursor: pointer;
+
+
+}
+
+.sidebarItem :hover {
+    background-color: cornflowerblue;
+    color: antiquewhite;
+}
+
+.map {
+    height: 500px;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 20px;
+    margin-top: 25px;
+    box-shadow: 0 0 8px -4px rgba(0, 0, 0, 0.5);
+    width: 80%;
+    margin-left: 10%;
+}
+
+.menu {
+    width: 50%;
+    margin-top: 5%;
+    align-content: center;
+}
+
+.map .leaflet-container {
+    height: 100%;
+    border-radius: 12px;
+}
+
+.info-flag img {
+    width: 100px;
+    border-radius: 5px;
+}
+
+.info-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #555;
+}
+
+.info-container {
+    width: 150px;
+}
+
+.info-flag {
+    height: 80px;
+    width: 100%;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.info-confirmed,
+.info-recovered,
+.info-deaths {
+    font-size: 16px;
+    margin-top: 5px;
+}
